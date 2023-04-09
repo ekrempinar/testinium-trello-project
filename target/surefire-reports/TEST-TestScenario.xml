@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestScenario" time="10.858" tests="11" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\ekrem.pinar\Desktop\testinium-trello-project\target\test-classes;C:\Users\ekrem.pinar\Desktop\testinium-trello-project\target\classes;C:\Users\ekrem.pinar\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\ekrem.pinar\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\ekrem.pinar\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\ekrem.pinar\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ekrem.pinar\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ekrem.pinar\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ekrem.pinar\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ekrem.pinar\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ekrem.pinar\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\ekrem.pinar\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ekrem.pinar\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\ekrem.pinar\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\ekrem.pinar\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\ekrem.pinar\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\ekrem.pinar\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\ekrem.pinar\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\ekrem.pinar\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\ekrem.pinar\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\ekrem.pinar\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ekrem.pinar\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\ekrem.pinar\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ekrem.pinar\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\ekrem.pinar\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.1\junit-jupiter-params-5.9.1.jar;C:\Users\ekrem.pinar\.m2\repository\org\json\json\20220320\json-20220320.jar;C:\Users\ekrem.pinar\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Istanbul"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
+    <property name="sun.java.command" value="C:\Users\ekrem.pinar\AppData\Local\Temp\surefire16394755780079400511\surefirebooter-20230410023853618_3.jar C:\Users\ekrem.pinar\AppData\Local\Temp\surefire16394755780079400511 2023-04-10T02-38-52_936-jvmRun1 surefire-20230410023853618_1tmp surefire_0-20230410023853618_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\ekrem.pinar\Desktop\testinium-trello-project\target\test-classes;C:\Users\ekrem.pinar\Desktop\testinium-trello-project\target\classes;C:\Users\ekrem.pinar\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\ekrem.pinar\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\ekrem.pinar\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\ekrem.pinar\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ekrem.pinar\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ekrem.pinar\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ekrem.pinar\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ekrem.pinar\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ekrem.pinar\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\ekrem.pinar\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ekrem.pinar\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\ekrem.pinar\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\ekrem.pinar\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\ekrem.pinar\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\ekrem.pinar\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\ekrem.pinar\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\ekrem.pinar\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\ekrem.pinar\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\ekrem.pinar\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ekrem.pinar\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\ekrem.pinar\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ekrem.pinar\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\ekrem.pinar\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.1\junit-jupiter-params-5.9.1.jar;C:\Users\ekrem.pinar\.m2\repository\org\json\json\20220320\json-20220320.jar;C:\Users\ekrem.pinar\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ekrem.pinar"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-19"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\ekrem.pinar\Desktop\testinium-trello-project"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ekrem.pinar\AppData\Local\Temp\surefire16394755780079400511\surefirebooter-20230410023853618_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="19.0.2+7-44"/>
+    <property name="user.name" value="ekrem.pinar"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ekrem.pinar\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\EKREM~1.PIN\AppData\Local\Temp\"/>
+    <property name="java.version" value="19.0.2"/>
+    <property name="user.dir" value="C:\Users\ekrem.pinar\Desktop\testinium-trello-project"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Amazon\AWSCLI\bin\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\apache-maven-3.9.1\bin;C:\Users\ekrem.pinar\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\ekrem.pinar\AppData\Local\Programs\Python\Python311\;C:\Program Files\Java\jdk1.8.0_301\bin;C:\Users\ekrem.pinar\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="19.0.2+7-44"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="createBoard(String)[1]" classname="TestScenario" time="5.529">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Sun, 09 Apr 2023 23:39:01 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1729
+X-Dns-Prefetch-Control: off
+Expect-Ct: max-age=0
+X-Frame-Options: DENY
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+Surrogate-Control: no-store
+Cache-Control: max-age=0, must-revalidate, no-cache, no-store
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00
+X-Trello-Version: 1.200611.0
+X-Trello-Environment: Production
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE
+Access-Control-Allow-Headers: Authorization, Accept, Content-Type
+Access-Control-Expose-Headers: x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining, x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining
+X-Rate-Limit-Api-Token-Interval-Ms: 10000
+X-Rate-Limit-Api-Token-Max: 100
+X-Rate-Limit-Api-Token-Remaining: 99
+X-Rate-Limit-Db-Query-Time-Interval-Ms: 600000
+X-Rate-Limit-Db-Query-Time-Max: 7200000
+X-Rate-Limit-Db-Query-Time-Remaining: 7199990
+X-Rate-Limit-Api-Key-Interval-Ms: 10000
+X-Rate-Limit-Api-Key-Max: 300
+X-Rate-Limit-Api-Key-Remaining: 299
+X-Rate-Limit-Member-Interval-Ms: 10000
+X-Rate-Limit-Member-Max: 375
+X-Rate-Limit-Member-Remaining: 374
+Set-Cookie: preAuthProps=s%3A6432db976dd9e1e11cbcd3f6%3AisEnterpriseAdmin%3Dfalse.dqdNV0smRIpOi40f%2FpCgUwhQZbxLHmYn6p7biVHQT%2FY; Path=/; HttpOnly
+X-Server-Time: 1681083541024
+X-Trello-Api-Org-Selected: true
+Server: AtlassianEdge
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Atl-Traceid: b0502a277de7ad23
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Strict-Transport-Security: max-age=63072000; preload
+
+{
+    "id": "64334c94e3176394fb7798b6",
+    "name": "TestBoard",
+    "desc": "",
+    "descData": null,
+    "closed": false,
+    "idOrganization": "6432dbb373016cd8b69edccb",
+    "idEnterprise": null,
+    "pinned": false,
+    "url": "https://trello.com/b/a6k900Ws/testboard",
+    "shortUrl": "https://trello.com/b/a6k900Ws",
+    "prefs": {
+        "permissionLevel": "private",
+        "hideVotes": false,
+        "voting": "disabled",
+        "comments": "members",
+        "invitations": "members",
+        "selfJoin": true,
+        "cardCovers": true,
+        "isTemplate": false,
+        "cardAging": "regular",
+        "calendarFeedEnabled": false,
+        "hiddenPluginBoardButtons": [
+            
+        ],
+        "switcherViews": [
+            {
+                "viewType": "Board",
+                "enabled": true,
+                "_id": "64334c94e3176394fb7798b7"
+            },
+            {
+                "viewType": "Table",
+                "enabled": true,
+                "_id": "64334c94e3176394fb7798b8"
+            },
+            {
+                "viewType": "Calendar",
+                "enabled": false,
+                "_id": "64334c94e3176394fb7798b9"
+            },
+            {
+                "viewType": "Dashboard",
+                "enabled": false,
+                "_id": "64334c94e3176394fb7798ba"
+            },
+            {
+                "viewType": "Timeline",
+                "enabled": false,
+                "_id": "64334c94e3176394fb7798bb"
+            },
+            {
+                "viewType": "Map",
+                "enabled": false,
+                "_id": "64334c94e3176394fb7798bc"
+            }
+        ],
+        "background": "blue",
+        "backgroundColor": "#0079BF",
+        "backgroundImage": null,
+        "backgroundImageScaled": null,
+        "backgroundTile": false,
+        "backgroundBrightness": "dark",
+        "backgroundBottomColor": "#0079BF",
+        "backgroundTopColor": "#0079BF",
+        "canBePublic": true,
+        "canBeEnterprise": true,
+        "canBeOrg": true,
+        "canBePrivate": true,
+        "canInvite": true
+    },
+    "labelNames": {
+        "green": "",
+        "yellow": "",
+        "orange": "",
+        "red": "",
+        "purple": "",
+        "blue": "",
+        "sky": "",
+        "lime": "",
+        "pink": "",
+        "black": "",
+        "green_dark": "",
+        "yellow_dark": "",
+        "orange_dark": "",
+        "red_dark": "",
+        "purple_dark": "",
+        "blue_dark": "",
+        "sky_dark": "",
+        "lime_dark": "",
+        "pink_dark": "",
+        "black_dark": "",
+        "green_light": "",
+        "yellow_light": "",
+        "orange_light": "",
+        "red_light": "",
+        "purple_light": "",
+        "blue_light": "",
+        "sky_light": "",
+        "lime_light": "",
+        "pink_light": "",
+        "black_light": ""
+    },
+    "limits": {
+        
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createList(String)[1]" classname="TestScenario" time="0.419">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Sun, 09 Apr 2023 23:39:02 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 140
+X-Dns-Prefetch-Control: off
+Expect-Ct: max-age=0
+X-Frame-Options: DENY
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+Surrogate-Control: no-store
+Cache-Control: max-age=0, must-revalidate, no-cache, no-store
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00
+X-Trello-Version: 1.200611.0
+X-Trello-Environment: Production
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE
+Access-Control-Allow-Headers: Authorization, Accept, Content-Type
+Access-Control-Expose-Headers: x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining, x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining
+X-Rate-Limit-Api-Token-Interval-Ms: 10000
+X-Rate-Limit-Api-Token-Max: 100
+X-Rate-Limit-Api-Token-Remaining: 98
+X-Rate-Limit-Db-Query-Time-Interval-Ms: 600000
+X-Rate-Limit-Db-Query-Time-Max: 7200000
+X-Rate-Limit-Db-Query-Time-Remaining: 7199990
+X-Rate-Limit-Api-Key-Interval-Ms: 10000
+X-Rate-Limit-Api-Key-Max: 300
+X-Rate-Limit-Api-Key-Remaining: 298
+X-Rate-Limit-Member-Interval-Ms: 10000
+X-Rate-Limit-Member-Max: 375
+X-Rate-Limit-Member-Remaining: 373
+Set-Cookie: preAuthProps=s%3A6432db976dd9e1e11cbcd3f6%3AisEnterpriseAdmin%3Dfalse.dqdNV0smRIpOi40f%2FpCgUwhQZbxLHmYn6p7biVHQT%2FY; Path=/; HttpOnly
+X-Server-Time: 1681083542212
+Server: AtlassianEdge
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Atl-Traceid: b3410fe4f6a3c615
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Strict-Transport-Security: max-age=63072000; preload
+
+{
+    "id": "64334c9699e4cf9b3e24df1b",
+    "name": "TestList",
+    "closed": false,
+    "idBoard": "64334c94e3176394fb7798b6",
+    "pos": 8192,
+    "status": null,
+    "limits": {
+        
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createCards(String)[1]" classname="TestScenario" time="0.564">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Sun, 09 Apr 2023 23:39:02 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1119
+X-Dns-Prefetch-Control: off
+Expect-Ct: max-age=0
+X-Frame-Options: DENY
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+Surrogate-Control: no-store
+Cache-Control: max-age=0, must-revalidate, no-cache, no-store
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00
+X-Trello-Version: 1.200611.0
+X-Trello-Environment: Production
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE
+Access-Control-Allow-Headers: Authorization, Accept, Content-Type
+Access-Control-Expose-Headers: x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining, x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining
+X-Rate-Limit-Api-Token-Interval-Ms: 10000
+X-Rate-Limit-Api-Token-Max: 100
+X-Rate-Limit-Api-Token-Remaining: 97
+X-Rate-Limit-Db-Query-Time-Interval-Ms: 600000
+X-Rate-Limit-Db-Query-Time-Max: 7200000
+X-Rate-Limit-Db-Query-Time-Remaining: 7199990
+X-Rate-Limit-Api-Key-Interval-Ms: 10000
+X-Rate-Limit-Api-Key-Max: 300
+X-Rate-Limit-Api-Key-Remaining: 297
+X-Rate-Limit-Member-Interval-Ms: 10000
+X-Rate-Limit-Member-Max: 375
+X-Rate-Limit-Member-Remaining: 372
+Set-Cookie: preAuthProps=s%3A6432db976dd9e1e11cbcd3f6%3AisEnterpriseAdmin%3Dfalse.dqdNV0smRIpOi40f%2FpCgUwhQZbxLHmYn6p7biVHQT%2FY; Path=/; HttpOnly
+X-Server-Time: 1681083542774
+Server: AtlassianEdge
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Atl-Traceid: 8dd19d793db0cb0a
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Strict-Transport-Security: max-age=63072000; preload
+
+{
+    "id": "64334c96357d0711eba4128e",
+    "badges": {
+        "attachmentsByType": {
+            "trello": {
+                "board": 0,
+                "card": 0
+            }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": false,
+        "due": null,
+        "dueComplete": false,
+        "start": null
+    },
+    "checkItemStates": [
+        
+    ],
+    "closed": false,
+    "dueComplete": false,
+    "dateLastActivity": "2023-04-09T23:39:02.696Z",
+    "desc": "",
+    "descData": {
+        "emoji": {
+            
+        }
+    },
+    "due": null,
+    "dueReminder": null,
+    "email": null,
+    "idBoard": "64334c94e3176394fb7798b6",
+    "idChecklists": [
+        
+    ],
+    "idList": "64334c9699e4cf9b3e24df1b",
+    "idMembers": [
+        
+    ],
+    "idMembersVoted": [
+        
+    ],
+    "idShort": 1,
+    "idAttachmentCover": null,
+    "labels": [
+        
+    ],
+    "idLabels": [
+        
+    ],
+    "manualCoverAttachment": false,
+    "name": "TestCard1",
+    "pos": 16384,
+    "shortLink": "Sl3BpJp2",
+    "shortUrl": "https://trello.com/c/Sl3BpJp2",
+    "start": null,
+    "subscribed": false,
+    "url": "https://trello.com/c/Sl3BpJp2/1-testcard1",
+    "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "dark",
+        "idPlugin": null
+    },
+    "isTemplate": false,
+    "cardRole": null,
+    "attachments": [
+        
+    ],
+    "stickers": [
+        
+    ],
+    "limits": {
+        
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createCards(String)[2]" classname="TestScenario" time="0.471">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Sun, 09 Apr 2023 23:39:03 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1119
+X-Dns-Prefetch-Control: off
+Expect-Ct: max-age=0
+X-Frame-Options: DENY
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+Surrogate-Control: no-store
+Cache-Control: max-age=0, must-revalidate, no-cache, no-store
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00
+X-Trello-Version: 1.200611.0
+X-Trello-Environment: Production
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE
+Access-Control-Allow-Headers: Authorization, Accept, Content-Type
+Access-Control-Expose-Headers: x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining, x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining
+X-Rate-Limit-Api-Token-Interval-Ms: 10000
+X-Rate-Limit-Api-Token-Max: 100
+X-Rate-Limit-Api-Token-Remaining: 96
+X-Rate-Limit-Db-Query-Time-Interval-Ms: 600000
+X-Rate-Limit-Db-Query-Time-Max: 7200000
+X-Rate-Limit-Db-Query-Time-Remaining: 7199990
+X-Rate-Limit-Api-Key-Interval-Ms: 10000
+X-Rate-Limit-Api-Key-Max: 300
+X-Rate-Limit-Api-Key-Remaining: 296
+X-Rate-Limit-Member-Interval-Ms: 10000
+X-Rate-Limit-Member-Max: 375
+X-Rate-Limit-Member-Remaining: 371
+Set-Cookie: preAuthProps=s%3A6432db976dd9e1e11cbcd3f6%3AisEnterpriseAdmin%3Dfalse.dqdNV0smRIpOi40f%2FpCgUwhQZbxLHmYn6p7biVHQT%2FY; Path=/; HttpOnly
+X-Server-Time: 1681083543247
+Server: AtlassianEdge
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Atl-Traceid: 91659b7d9da5d777
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Strict-Transport-Security: max-age=63072000; preload
+
+{
+    "id": "64334c97c840a332244eb93e",
+    "badges": {
+        "attachmentsByType": {
+            "trello": {
+                "board": 0,
+                "card": 0
+            }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": false,
+        "due": null,
+        "dueComplete": false,
+        "start": null
+    },
+    "checkItemStates": [
+        
+    ],
+    "closed": false,
+    "dueComplete": false,
+    "dateLastActivity": "2023-04-09T23:39:03.181Z",
+    "desc": "",
+    "descData": {
+        "emoji": {
+            
+        }
+    },
+    "due": null,
+    "dueReminder": null,
+    "email": null,
+    "idBoard": "64334c94e3176394fb7798b6",
+    "idChecklists": [
+        
+    ],
+    "idList": "64334c9699e4cf9b3e24df1b",
+    "idMembers": [
+        
+    ],
+    "idMembersVoted": [
+        
+    ],
+    "idShort": 2,
+    "idAttachmentCover": null,
+    "labels": [
+        
+    ],
+    "idLabels": [
+        
+    ],
+    "manualCoverAttachment": false,
+    "name": "TestCard2",
+    "pos": 32768,
+    "shortLink": "HoU2PoKG",
+    "shortUrl": "https://trello.com/c/HoU2PoKG",
+    "start": null,
+    "subscribed": false,
+    "url": "https://trello.com/c/HoU2PoKG/2-testcard2",
+    "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "dark",
+        "idPlugin": null
+    },
+    "isTemplate": false,
+    "cardRole": null,
+    "attachments": [
+        
+    ],
+    "stickers": [
+        
+    ],
+    "limits": {
+        
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updateARandomCard(String)[1]" classname="TestScenario" time="0.42">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Sun, 09 Apr 2023 23:39:03 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1076
+X-Dns-Prefetch-Control: off
+Expect-Ct: max-age=0
+X-Frame-Options: DENY
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+Surrogate-Control: no-store
+Cache-Control: max-age=0, must-revalidate, no-cache, no-store
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00
+X-Trello-Version: 1.200611.0
+X-Trello-Environment: Production
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE
+Access-Control-Allow-Headers: Authorization, Accept, Content-Type
+Access-Control-Expose-Headers: x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining, x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining
+X-Rate-Limit-Api-Token-Interval-Ms: 10000
+X-Rate-Limit-Api-Token-Max: 100
+X-Rate-Limit-Api-Token-Remaining: 95
+X-Rate-Limit-Db-Query-Time-Interval-Ms: 600000
+X-Rate-Limit-Db-Query-Time-Max: 7200000
+X-Rate-Limit-Db-Query-Time-Remaining: 7199990
+X-Rate-Limit-Api-Key-Interval-Ms: 10000
+X-Rate-Limit-Api-Key-Max: 300
+X-Rate-Limit-Api-Key-Remaining: 295
+X-Rate-Limit-Member-Interval-Ms: 10000
+X-Rate-Limit-Member-Max: 375
+X-Rate-Limit-Member-Remaining: 370
+Set-Cookie: preAuthProps=s%3A6432db976dd9e1e11cbcd3f6%3AisEnterpriseAdmin%3Dfalse.dqdNV0smRIpOi40f%2FpCgUwhQZbxLHmYn6p7biVHQT%2FY; Path=/; HttpOnly
+X-Server-Time: 1681083543681
+Server: AtlassianEdge
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Atl-Traceid: b832252433e03298
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Strict-Transport-Security: max-age=63072000; preload
+
+{
+    "id": "64334c96357d0711eba4128e",
+    "badges": {
+        "attachmentsByType": {
+            "trello": {
+                "board": 0,
+                "card": 0
+            }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": false,
+        "due": null,
+        "dueComplete": false,
+        "start": null
+    },
+    "checkItemStates": [
+        
+    ],
+    "closed": false,
+    "dueComplete": false,
+    "dateLastActivity": "2023-04-09T23:39:03.630Z",
+    "desc": "",
+    "descData": {
+        "emoji": {
+            
+        }
+    },
+    "due": null,
+    "dueReminder": null,
+    "email": null,
+    "idBoard": "64334c94e3176394fb7798b6",
+    "idChecklists": [
+        
+    ],
+    "idList": "64334c9699e4cf9b3e24df1b",
+    "idMembers": [
+        
+    ],
+    "idMembersVoted": [
+        
+    ],
+    "idShort": 1,
+    "idAttachmentCover": null,
+    "labels": [
+        
+    ],
+    "idLabels": [
+        
+    ],
+    "manualCoverAttachment": false,
+    "name": "TestCard3",
+    "pos": 16384,
+    "shortLink": "Sl3BpJp2",
+    "shortUrl": "https://trello.com/c/Sl3BpJp2",
+    "start": null,
+    "subscribed": false,
+    "url": "https://trello.com/c/Sl3BpJp2/1-testcard3",
+    "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "dark",
+        "idPlugin": null
+    },
+    "isTemplate": false,
+    "cardRole": null
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deleteAllCards(String)[1]" classname="TestScenario" time="0.685"/>
+  <testcase name="deleteAllCards(String)[2]" classname="TestScenario" time="0.63"/>
+  <testcase name="shouldCardsBeDeleted(String)[1]" classname="TestScenario" time="0.334"/>
+  <testcase name="shouldCardsBeDeleted(String)[2]" classname="TestScenario" time="0.325"/>
+  <testcase name="deleteBoard" classname="TestScenario" time="1.033"/>
+  <testcase name="shouldBoardBeDeleted" classname="TestScenario" time="0.311"/>
+</testsuite>
